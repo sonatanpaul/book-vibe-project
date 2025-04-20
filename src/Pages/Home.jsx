@@ -1,7 +1,11 @@
+import Banner from "./Banner";
+import Books from "./Books";
+
 export default function Home() {
   return (
     <>
-      <h1>I am Home</h1>
+      <Banner />
+      <Books />
     </>
   );
 }
